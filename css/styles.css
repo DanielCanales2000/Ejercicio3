@@ -1,0 +1,161 @@
+* {
+    color: #775548;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+:root {
+    --primerColor: #775548;
+    --segundoColor: orangered;
+    --tercerColor: #ef6819;
+    --cuartoColor: goldenrod;
+    --laNacion: #4cb7d1;
+    --pagina12: #f03d4a;
+}
+
+.img {
+    height: 10%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.img2 {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mc-img {
+    width: 1000px;
+    padding-left: 10px;
+    display: inline;
+}
+
+.centrar-img {
+    text-align: center;
+}
+
+.img-distorsionada {
+    width: 275px;
+    height: 183px;
+}
+
+.bicicleta {
+    border: 1px solid #775548;
+    border-radius: 5px;
+    padding-right: 15px;
+}
+
+a.la-nacion:link {
+    color: var(--laNacion);
+}
+
+a.pagina12:link {
+    color: var(--pagina12);
+}
+
+a.c-llegar:link {
+    color: var(--tercerColor);
+}
+a.c-llegar {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+a.tarifas:link  {
+    color: var(--tercerColor);
+}
+
+a.tarifas {
+    padding-inline: 10px;
+    font-size: 20px;
+}
+
+a.descuentos:link   {
+    color: var(--tercerColor);
+}
+
+a.descuentos {
+    font-size: 20px;
+}
+
+a.m-contacto:link   {
+    color: var(--tercerColor);
+}
+
+a.m-contacto {
+    font-size:20px;
+}
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.centrar-titulo {
+    text-align: center;
+}
+
+.h3 {
+    background-color: var(--primerColor);
+    color: var(--cuartoColor);
+}
+
+ins {
+    color: var(--segundoColor);
+    font-weight: bolder;
+}
+
+h3 {
+    background-color: var(--primerColor);
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.enfasis {
+    background-color: var(--colorPrincipal);
+    color: var(--colorPrincipal);
+
+}
+
+em {
+    color: var(--tercerColor);
+}
+
+strong {
+    color: var(--tercerColor);
+}
+
+.negrita {
+    color: var(--primerColor);
+}
+
+.destacado {
+    color: var(--tercerColor);
+}
+
+a {
+    display: inline;
+    font-weight: bolder;
+}
+
+.espaciado {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+p {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
